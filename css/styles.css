@@ -1,5 +1,5 @@
 body {
-  font: "Montserrat";
+  font: Montserrat;
 }
 
 #title {
@@ -8,14 +8,16 @@ body {
 }
 
 h1 {
-  font: "Montserrat-black";
+  font: Montserrat-black;
   font-size: 3.5rem;
+  font-weight: 900;
   line-height: 1.5;
 }
 
 h2 {
-  font-family: "Montserrat-bold";
+  font: Montserrat-bold;
   font-size: 3rem;
+  font-weight: 700;
   line-height: 1.5;
 }
 
@@ -82,4 +84,16 @@ h3 {
   text-align: center;
   background-color: #ef8172;
   color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
