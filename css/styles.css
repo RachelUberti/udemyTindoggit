@@ -46,6 +46,14 @@ h2 {
   margin: 5% 3% 5% 0;
 }
 
+.fa-circle {
+  padding-right: 7px;
+}
+
+.fa-play {
+  padding-right: 7px;
+}
+
 /* title image */
 
 .title-image {
@@ -58,7 +66,7 @@ h2 {
 /* features section */
 
 .features {
-  /* text-align: center; */
+  text-align: center;
   padding: 7% 11%;
   background-color: #fff;
   position: relative;
@@ -122,4 +130,38 @@ h3 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* CTA */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font: Montserrat-black;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
