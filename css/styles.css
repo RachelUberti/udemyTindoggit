@@ -57,8 +57,7 @@ p {
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
-  font-weight: 500;
-  /* font-weight: 500; */
+  font-weight: bold;
 }
 
 .nav-item {
@@ -76,10 +75,7 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-.fa-circle {
-  padding-right: 7px;
-}
-
+.fa-circle,
 .fa-play {
   padding-right: 7px;
 }
@@ -87,6 +83,8 @@ p {
 /* Title section */
 
 #title {
+  background-color: #ff4c68;
+  color: #fff;
   text-align: left;
 }
 
@@ -105,8 +103,7 @@ p {
 
 /* features section */
 
-.features {
-  background-color: #fff;
+#features {
   position: relative;
 }
 
